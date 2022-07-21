@@ -1,0 +1,26 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "fullstack with angular and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0-TelitsynNikite/fullstack.git"
+  },
+  "keywords": [
+    "express",
+    "angular"
+  ],
+  "author": "Demo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0-TelitsynNikite/fullstack/issues"
+  },
+  "homepage": "https://github.com/0-TelitsynNikite/fullstack#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
