@@ -56,7 +56,6 @@ class LoginOrRegisterUser {
             // Let's make a user
 
             const salt = bcrypt.genSaltSync(10)
-            const userPassword = password
             const user = await db.query(`INSERT INTO users (email, password) values ($1, $2) RETURNING *`, [email, bcrypt.hashSync(password, salt)])
 
             try {
