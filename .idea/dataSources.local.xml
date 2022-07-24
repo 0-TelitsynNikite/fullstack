@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="WS-221.5921.27">
-    <data-source name="node_practice" uuid="9f744097-9e53-4d73-99f8-4e243026a771">
+    <data-source name="node_practice@localhost" uuid="c68511bf-99c4-4c03-a911-2e44c2ec6fc8">
       <database-info product="PostgreSQL" version="14.4" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.4.0" dbms="POSTGRES" exact-version="14.4" exact-driver-version="42.4">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
@@ -10,8 +10,8 @@
       <user-name>demo</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
+          <node kind="database" qname="node_practice">
+            <node kind="schema" qname="public" />
           </node>
         </introspection-scope>
       </schema-mapping>
